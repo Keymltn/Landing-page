@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing page</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1458/1458523.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="landing-main">
+    <a href="https://www.google.com/"><img class="landiing-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" alt="Google logo" title="Google logo" /></a>
+    <form action="" id="landing_form" class="landing-form">
+      <input class="landing-input" type="email" id="input_email" placeholder="Enter your email" required pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" />
+      <input autocomplete="off" class="landing-input" id="input_password" type="password" placeholder="Enter your password" />
+      <p class="landing-demand" id="landing_demand"></p>
+      <div class="landing-submitters">
+        <button class="landing-submit" id="landing_btn" type="submit">
+          Submit
+        </button>
+        <img class="landing-none submitted-img" id="submitted_img" src="https://icons.veryicon.com/png/o/miscellaneous/8atour/submit-successfully.png" alt="successfully submitted" />
+      </div>
+    </form>
+  </div>
+  <!-- minlength="8" required -->
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

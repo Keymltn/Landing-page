@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: #04ff0047; */
+  background-image: url("https://images3.alphacoders.com/133/1331117.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-main{
+  width: 335px;
+  height: 440px;
+  border-radius: 15px;
+  padding: 20px;
+  /* box-shadow: -4px 5px 14px grey; */
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00000099;
+  backdrop-filter: blur(10px);
+}
+
+.landiing-img{
+  width: 165px;
+  height: 50px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.landiing-img:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.landing-form{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-input{
+  outline: none;
+  border-radius: 18px;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  caret-color: #000;
+  color: #7575ff;
+  font-weight: 700; 
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.landing-submitters{
+  display: flex;
+  align-items: flex-end;
+}
+
+.landing-submit{
+  border: none;
+  width: 112px;
+  height: 34px;
+  border-radius: 18px;
+  background-color: #6bff0075;
+  cursor: pointer;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 19px;
+  outline: rgb(70, 70, 224);
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.landing-submit:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.landing-submit:active{
+  box-shadow: 0px 0px 12px #6aff00;
+}
+
+.landing-demand{
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Martian Mono', monospace;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.landing-none{
+  display: none;
+}
+
+.submitted-img{
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
